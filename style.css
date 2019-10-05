@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2e7ec;
+}
+
+main {
+    margin: 90px 9% 70px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+div {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.big {
+    background-image: url(./img/1.png);
+    display: flex;
+    width:66% ;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.little {
+    background-color:white;
+    display: flex;
+    width: 32%;
+    height: auto;
+}
+
+.date {
+    font-style: 'Myriad Pro' , Regular;
+    font-size: 13px;
+    color:#818181;
+    margin: 25px 0 20px 25px;
+    text-transform: uppercase;
+
+}
+
+.name {
+    font-style: 'Myriad Pro' , Regular;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 25px;
+    text-transform: uppercase;
+
+
+}
+#q {
+    margin-top: 58px;
+}
+.name2 {
+    color: white;
+    font-size: 30px;
+    font-style: 'Myriad Pro' , Regular;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 35px 40px;
+
+}
+
+img {
+    width: 100%;
+}
+.photo{
+    width: auto;
+    margin: 65px 0 23px 25px;
+}
+
+.big .date {
+    margin-left: 40px;
+}
+.loading {
+    color: #99a5b0;
+    font-size: 13px;
+    font-style: 'Myriad Pro' , Regular;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
